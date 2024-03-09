@@ -7,7 +7,7 @@ import { NAV_LINKS } from '@/constants'
 
 const Navbar = () => {
   return (
-    <nav className='border-2 bg-teal-500 flexBetween max-container padding-container relative z-30 py-5'>
+    <nav className='border-2 bg-blue-80 flexBetween max-container padding-container relative z-30 py-5'>
       <Link href="/">
         <Image src="/white_logo.png" alt="logo" width={100} height={50}/>
       </Link>

@@ -24,10 +24,12 @@ module.exports = {
         },
         blue: {
           70: '#021639',
+          80:'rgb(22,57,112)'
         },
         yellow: {
           50: '#FEC601',
         },
+
       },
       backgroundImage: {
         'bg-img-1': "url('/img-1.png')",
