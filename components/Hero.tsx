@@ -16,13 +16,13 @@ const Hero = () => {
     <section className='max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row'>
         <div className="hero-map"/>
         <div className='relative z-20 flex flex-1 flex-col xl:w-1/2'>
-            <Image
+            {/* <Image
                 src=""
                 alt=""
                 width={50}
                 height={50}
                 className='absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]'
-            />
+            /> */}
             <h1 className='bold-52 lg:bold-88'>Eyesite Opticians</h1>
             <p className='regular-16 mt-6 text-gray-30 xl:max-w-[520px]'>Welcome to Eyesite Opticians. We have been established 30 years and built up a solid reputation. Our staff are the pinnacle of this. We provide eye examinations, Spectacles, contact lenses and spectacle accessories. We will soon be providing hearing tests, hearing aids and ear wax removal.</p>
             
@@ -47,7 +47,7 @@ const Hero = () => {
                 <BookingButton 
                     type={'button'}
                     title={'Book An Appointment'} 
-                    variant={'btn_green'}                
+                    variant={'btn_blue'}                
                 />
 
                 <BookingButton 
