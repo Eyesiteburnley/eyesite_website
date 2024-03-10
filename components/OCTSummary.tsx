@@ -1,0 +1,52 @@
+import { faGlasses } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import React from 'react'
+import Image from 'next/image'
+
+const OCTSummary = () => {
+  return (
+    <section className="flexCenter flex-col">
+      <div className="padding-container max-container w-full pb-24">
+        <FontAwesomeIcon icon={faGlasses} style={{width:'50px',height:'50px'}} />
+        <p className="uppercase regular-18 -mt-1 mb-3 text-blue-80">
+          we care for your eyecare
+        </p>
+        <div className="flex flex-wrap justifu between gap-5 lg:gap-10">
+          <h2 className='bold-40 lg:bold-64 xl:max-w-[390px]'>We provide OCT Scans</h2>
+          <p className='regular-16 text-gray-30 xl:max-w-[520px]'>
+          An Optical Coherence Tomography (OCT) scan uses (non-invasive) light waves to produce a 3D scan of the layers of the retina. It allows the Optometrist to see the layers of the retina rather than just the surface. It helps the Optometrist to diagnose and manage eye conditions. It can be used as a baseline to monitor changes over time.
+          </p>
+        </div>
+      </div>
+      <div className="flexCenter max-container relative w-full border-2">
+        <Image 
+          src="/OCT_image.png"
+          alt="OCT Scan"
+          width={1440}
+          height={580}
+          className='w-full object-cover object-center 2xl:rounded-5xl'
+        />
+        <div className="absolute flex bg-white py-8 pl-5 pr-7 gap-3 rounded-3xl border shadow-md md:left-[5%] lg:top-20">
+          <div className="flexBetween flex-col ">
+            <div className="flex w-full flex-col">
+              <div className="flexBetween w-full">
+                <p className='regular-16 text-gray-20'>The scan can help us detect</p>
+              </div>
+              <ul className='list-disc p-5'>
+                <li>Glaucoma</li>
+                <li>Age related Macular Degeneration</li>
+                <li>Detached Retina</li>
+                <li>Macula Hole</li>
+                <li>Optic nerve Inflammation</li>
+                <li>Retinal Vein Occlusion</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  )
+}
+
+export default OCTSummary;

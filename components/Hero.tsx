@@ -1,6 +1,15 @@
 import React from 'react'
 import Image from 'next/image'
 import BookingButton from './BookingButton'
+import YouTube from 'react-youtube'
+
+const options = {
+    height:'400',
+    width:'640',
+    playerVars:{
+        autoplay:1,
+    },
+};
 
 const Hero = () => {
   return (
@@ -48,7 +57,7 @@ const Hero = () => {
             </div>
         </div>
         <div className="relative flex flex-1 items-start ">
-            <div className="relative z-20 flex w-[268px] flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8">
+            {/* <div className="relative z-20 flex w-[268px] flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8">
                 <div className="flex flex-col">
                     <div className="flexBetween">
                         <p className='regular-16 text-gray-20'>Location</p>
@@ -59,16 +68,20 @@ const Hero = () => {
                             height={24}                
                         />
                     </div>
+
                 </div>
                 <div className="flexBetween">
                     <div className="flex flex-col">
 
                     </div>
                 </div>
+            </div> */}
+            <div className="relative">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/djNOpVAwZk0?si=KtUxnAI9eSb7SYG8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
     </section>
   )
-}
+};
 
 export default Hero
