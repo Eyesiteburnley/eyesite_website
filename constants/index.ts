@@ -2,10 +2,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // NAVIGATION
 export const NAV_LINKS = [
-    { href: '/', key: 'about', label: 'About' },
-    { href: '/', key: 'our_services', label: 'Our Services' },
-    { href: '/', key: 'what_to_expect', label: 'What to Expect' },
-    { href: '/', key: 'contact_us', label: 'Contact Us' },
+    { href: '/about', key: 'about', label: 'About' },
+    { href: '/services', key: 'our_services', label: 'Our Services' },
+    { href: '/expect', key: 'what_to_expect', label: 'What to Expect' },
+    { href: '/contact', key: 'contact_us', label: 'Contact Us' },
   ];
   
   // CAMP SECTION
@@ -44,27 +44,22 @@ export const NAV_LINKS = [
   // FOOTER SECTION
   export const FOOTER_LINKS = [
     {
-      title: 'Learn More',
+      title: 'Quick Links',
       links: [
-        'About Hilink',
-        'Press Releases',
-        'Environment',
-        'Jobs',
+        'About eyesite',
+        'What to Expect',
+        'Our Services',
         'Privacy Policy',
         'Contact Us',
       ],
-    },
-    {
-      title: 'Our Community',
-      links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
     },
   ];
   
   export const FOOTER_CONTACT_INFO = {
     title: 'Contact Us',
     links: [
-      { label: 'Admin Officer', value: '123-456-7890' },
-      { label: 'Email Officer', value: 'hilink@akinthil.com' },
+      { label: 'Our Number', value: '123-456-7890' },
+      { label: 'Our Email', value: 'test@test.com' },
     ],
   };
   

@@ -14,7 +14,7 @@ const options = {
 const Hero = () => {
   return (
     <section className='max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row'>
-        <div className="hero-map"/>
+        
         <div className='relative z-20 flex flex-1 flex-col xl:w-1/2'>
             {/* <Image
                 src=""
@@ -77,7 +77,7 @@ const Hero = () => {
                 </div>
             </div> */}
             <div className="relative">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/djNOpVAwZk0?si=KtUxnAI9eSb7SYG8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/djNOpVAwZk0?si=KtUxnAI9eSb7SYG8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
         </div>
     </section>
