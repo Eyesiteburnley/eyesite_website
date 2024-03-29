@@ -2,8 +2,8 @@ import React from 'react'
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 
-import { faArrowRight, faMoneyBill } from "@fortawesome/free-solid-svg-icons";
-import { faCode, faHighlighter, faGlasses } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faGlasses } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 

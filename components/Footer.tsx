@@ -9,16 +9,16 @@ const Footer = () => {
     <footer className='flexCenter p-5 bg-blue-80'>
       <div className="padding-container max-container flex w-full flex-col gap-14">
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
-          <div className="flex flex-col justify-center sm:flex-row gap-[10%] sm:w-full sm:justify-between">
+          <div className="flex lg:flex-col lg:w-auto md:w-auto sm:flex-row gap-[10%] sm:w-full sm:justify-between">
             <Link href="/" className='mb-10'>
               <Image src='/white_logo.png' alt='logo' width={150} height={60}/>
             </Link>
             <BookingButton 
-            type="button"
-            title="Booking"
-            icon=""
-            variant="btn_white"/>
-            
+              type="button"
+              title="Booking"
+              icon=""
+              variant="btn_white"
+            />
           </div>
 
           <div className="flex flex-wrap gap-10 sm:justify-around md:flex-1">
