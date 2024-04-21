@@ -42,11 +42,6 @@ const Hero = () => {
                     title={'Book An Appointment'} 
                     variant={'btn_blue'}                
                 />
-
-                <BookingButton 
-                    type={'button'} 
-                    title={'How your visit will go'} 
-                    variant={'btn_white_text'} />
             </div>
         </div>
         <div className="relative flex flex-1 items-start ">

@@ -20,7 +20,7 @@ const OCTSummary = () => {
       </div>
       <div className="flexCenter max-container relative w-full border-2">
         <Image 
-          src="/OCT_image.png"
+          src="/oct-machine.JPG"
           alt="OCT Scan"
           width={1440}
           height={580}

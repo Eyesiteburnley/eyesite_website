@@ -38,13 +38,13 @@ const Services = () => {
     <section className=" 2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20 ">
       <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
       <Service 
-        backgroundImage="bg-bg-img-1"
+        backgroundImage="bg-bg-img-3"
         title="Eye Test"
         subtitle="OCT Scan"
         readMore="Read More  "
       />
       <Service 
-        backgroundImage="bg-bg-img-1"
+        backgroundImage="bg-bg-img-4"
         title="Designer Eyewear"
         subtitle="Take a Look at some of the brands we stock"
         readMore="Read More  "
