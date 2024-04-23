@@ -21,7 +21,7 @@ const Navbar = () => {
       <div className='lg:flexCenter hidden mr-20'>
         <BookingButton 
         type="button"
-        title="Booking"
+        title="Book Appointment"
         icon=""
         variant="btn_white"
         />
