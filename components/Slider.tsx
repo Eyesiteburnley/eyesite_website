@@ -50,10 +50,10 @@ const Slider = () => {
         ))}
       </div>
       <Description
-          activeImageIndex={activeImage}
-          clickNext={clickNext}
-          clickPrev={clickPrev}
-        />
+        activeImageIndex={activeImage}
+        clickNext={clickNext}
+        clickPrev={clickPrev}
+      />
     </div>
   );
 };

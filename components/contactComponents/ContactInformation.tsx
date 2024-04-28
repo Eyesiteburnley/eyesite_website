@@ -8,8 +8,9 @@ const ContactInformation = () => {
   return (
     <section>
        <div className="flex flex-col w-full">
-         <div className='flex h-96 items-center justify-center'>
+         <div className='flex h-96 items-center justify-center flex-col'>
            <h1 className='bold-52 lg:bold-88 h-50'>Contact</h1>
+           <h3>We Have free Parking at our Location!</h3>
          </div>
         <div className="flex w-full align-bottom">
           <div className="w-1/3">
