@@ -12,11 +12,11 @@ const ContactInformation = () => {
            <h1 className='bold-52 lg:bold-88 h-50'>Contact</h1>
            <h3>We Have free Parking at our Location!</h3>
          </div>
-        <div className="flex w-full align-bottom">
-          <div className="w-1/3">
+        <div className="flex w-full flex-col sm:flex-row align-bottom">
+          <div className="lg:w-1/3">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2356.123677539187!2d-2.233001623087173!3d53.80508294030057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b912c9276273b%3A0xe30c0c76654cc88!2sEyesite%20Opticians%20Burnley!5e0!3m2!1sen!2suk!4v1711570060695!5m2!1sen!2suk" width="100%" height="450" loading="lazy"></iframe>
           </div>
-          <div className="w-1/3 bg-blue-80 flex flex-col justify-center items-center">
+          <div className=" h-[450px] lg:w-1/3 bg-blue-80 flex flex-col justify-center items-center">
             <div className="flex flex-col">
             <h2 className='bold-32 lg:bold-68 text-white'>Contact Us</h2>
               <div className='text-white flex items-center'>
@@ -25,15 +25,15 @@ const ContactInformation = () => {
               </div>
               <div className='text-white flex items-center'>
                 <FontAwesomeIcon icon={faEnvelope} style={{width:'40px', height:'40px', paddingRight:'15px'}}/>
-                <p>sample@email.com</p>
+                <p>eyesiteburnley@gmail.com</p>
               </div>
               <div className='text-white flex items-center'>
                 <FontAwesomeIcon icon={faPhone} style={{width:'40px', height:'40px', paddingRight:'15px'}}/>
-                <p>0161 777 777</p>
+                <p>01282 420 555</p>
               </div>
             </div>
           </div>
-          <div className="w-1/3 bg-gray-100 flex flex-col justify-center items-center">
+          <div className=" h-[450px] lg:w-1/3 bg-gray-100 flex flex-col justify-center items-center">
             <h2 className='bold-32 lg:bold-68'>Book an appointment</h2>
             <p className='text-center w-3/4'>If you would like to book an appointment, the button below will take you to our booking system. </p>
             <BookingButton 

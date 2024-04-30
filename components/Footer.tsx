@@ -1,7 +1,8 @@
 import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
-import { FOOTER_CONTACT_INFO, FOOTER_LINKS } from '@/constants'
+import { FOOTER_CONTACT_INFO, FOOTER_LINKS, NAV_LINKS } from '@/constants'
+
 import BookingButton from './BookingButton'
 
 const Footer = () => {
@@ -22,17 +23,19 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-wrap gap-10 sm:justify-around md:flex-1">
-            {FOOTER_LINKS.map((columns) => (
-              <FooterColumn title={columns.title} key={''}>
+              <FooterColumn title="Quick Links" key={''}>
                 <ul className='regular-14 flex flex-col gap-4 text-white'>
-                  {columns.links.map((link)=>(
-                    <Link href="/" key={link} className='hover:-translate-x-5 transition-transform duration-300'>
-                      {link}
-                    </Link>
+                  {NAV_LINKS.map((link) => (
+                    <li key={link.key}>
+                      <a
+                        href={link.href}
+                        className="py-4 cursor-pointer">
+                        {link.label}
+                      </a>
+                    </li>
                   ))}
                 </ul>
               </FooterColumn>
-            ))}
             <div className="flex flex-col gap-5">
               <FooterColumn title={FOOTER_CONTACT_INFO.title} key={''}>
                 {FOOTER_CONTACT_INFO.links.map((link)=>(

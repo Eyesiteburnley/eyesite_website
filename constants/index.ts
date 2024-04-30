@@ -58,8 +58,8 @@ export const NAV_LINKS = [
   export const FOOTER_CONTACT_INFO = {
     title: 'Contact Us',
     links: [
-      { label: 'Our Number', value: '123-456-7890' },
-      { label: 'Our Email', value: 'test@test.com' },
+      { label: 'Our Number', value: '01282 420 555' },
+      { label: 'Our Email', value: 'eyesiteburnley@gmail.com' },
     ],
   };
   
