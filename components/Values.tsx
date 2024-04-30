@@ -11,9 +11,9 @@ import { FEATURES } from "@/constants";
 
 const Values = () => {
   return (
-    <section className="flex-col flexCenter overflow-hidden bg-feature-bg bg-center bg-no-repeat py-24">
+    <section className="flex-col flexCenter overflow-hidden bg-center bg-no-repeat py-24">
       <div className="max-container padding-container relative w-full flex">
-        <div className="z-20 flex w-full flex-col">
+        <div className="flex w-full flex-col">
           <div className="relative">
             <FontAwesomeIcon
               icon={faGlasses}
@@ -51,7 +51,7 @@ const FeatureItem = ({ title, icon, description }: FeatureItem) => {
         <Image src={icon} alt="value" width={28} height={28} />
       </div>
       <h2 className="bold-20 lg:bold:32 mt-5 capitalize">{title}</h2>
-      <p className="regular-16 mt-5 bg-white/80 text-gray-30 lg:mt-[30px] lg">
+      <p className="regular-16 mt-5 text-gray-30 lg:mt-[30px] ">
         {description}
       </p>
     </li>

@@ -77,13 +77,13 @@ export const NAV_LINKS = [
   export const SLIDER_IMAGES = [
     {
       id: 1,
-      src: "/HH2.png",
+      src: "/HH2.jpeg",
       title: "Black Coffee",
       desc: "Black coffee is a beverage made from roasted coffee beans. The beans are ground and soaked in water, which releases their flavor, color, caffeine content, and nutrients. ",
     },
     {
       id: 2,
-      src: "/HH1.png",
+      src: "/HH1.jpeg",
       title: "Cappuccino",
       desc: "A cappuccino is an espresso-based coffee drink that is traditionally prepared with steamed milk foam (microfoam). Cappuccino. Type, Hot.",
     },

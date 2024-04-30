@@ -3,6 +3,7 @@ import Services from "@/components/Services";
 import Contact from "@/components/Contact";
 import OCTSummary from "@/components/OCTSummary";
 import Values from "@/components/Values";
+import News from "@/components/News";
 // import the library
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <OCTSummary />
       <Values />
       <Contact />
+      <News />
     </>
   );
 }

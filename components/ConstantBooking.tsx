@@ -9,7 +9,7 @@ const ConstantBooking = () => {
   useEffect(() => {
     const toggleVisibility = () => {
       // if the user scrolls down, show the button
-      window.scrollY > 500 ? setIsVisible(true) : setIsVisible(false);
+      window.scrollY > 100 ? setIsVisible(true) : setIsVisible(false);
     };
     // listen for scroll events
     window.addEventListener("scroll", toggleVisibility);
@@ -35,7 +35,7 @@ const ConstantBooking = () => {
       <BookingButton
         type={"button"}
         title={"Book An Appointment"}
-        variant={"btn_blue"}
+        variant={"btn_constant"}
       />
     </div>
   );

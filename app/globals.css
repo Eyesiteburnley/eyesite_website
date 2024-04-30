@@ -32,8 +32,11 @@ body {
   }
   .btn_blue{
     @apply  border-blue-80 bg-blue-80 px-8 py-5 text-white
-
   }
+  .btn_constant{
+    @apply border-2 lg:border-8 border-black bg-blue-80 px-8 lg:px-10 py-5 lg:py-7 text-white lg:text-xl
+  }
+
   
   .max-container {
     @apply mx-auto max-w-[1440px];
