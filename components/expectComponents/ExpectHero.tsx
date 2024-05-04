@@ -3,7 +3,7 @@ import React from "react";
 const ExpectHero = () => {
   return (
     <section>
-      <div className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 ">
+      <div className="max-container padding-container flex flex-col gap-20 py-10 lg:pb-32 md:gap-28 lg:py-20 ">
         <div className="flex items-center text-center flex-col">
           <h1 className="bold-52 lg:bold-88">What to Expect</h1>
           <h2 className="regular-16 text-gray-30 ">

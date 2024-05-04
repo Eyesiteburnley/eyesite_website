@@ -19,7 +19,7 @@ export const NAV_LINKS = [
   // FEATURES SECTION
   export const FEATURES = [
     {
-      title: 'Providing Excellent Patient and Customer Service',
+      title: 'Providing Excellent Patient Customer Service',
       icon: '/user.svg',
       variant: 'green',
       description:
@@ -77,19 +77,19 @@ export const NAV_LINKS = [
   export const SLIDER_IMAGES = [
     {
       id: 1,
-      src: "/HH2.jpeg",
+      src: "/HH2 Large.jpeg",
       title: "Black Coffee",
       desc: "Black coffee is a beverage made from roasted coffee beans. The beans are ground and soaked in water, which releases their flavor, color, caffeine content, and nutrients. ",
     },
     {
       id: 2,
-      src: "/HH1.jpeg",
+      src: "/HH1 Large.jpeg",
       title: "Cappuccino",
       desc: "A cappuccino is an espresso-based coffee drink that is traditionally prepared with steamed milk foam (microfoam). Cappuccino. Type, Hot.",
     },
     {
       id: 3,
-      src: "/HH3.JPG",
+      src: "/HH3 Large.jpeg",
       title: "Espresso",
       desc: "Espresso is a concentrated form of coffee, served in shots. It's made of two ingredients - finely ground, 100% coffee, and hot water.",
     },

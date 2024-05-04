@@ -14,7 +14,7 @@ const Values = () => {
     <section className="flex-col flexCenter overflow-hidden bg-center bg-no-repeat py-24">
       <div className="max-container padding-container relative w-full flex">
         <div className="flex w-full flex-col">
-          <div className="relative">
+          <div className="relative pl-0 p-3 lg:p-0">
             <FontAwesomeIcon
               icon={faGlasses}
               style={{ width: "50px", height: "50px" }}
@@ -22,7 +22,7 @@ const Values = () => {
             />
             <h2 className="bold-40 lg:bold-64">Our Core Values</h2>
           </div>
-          <ul className="mt-10 grid gap-10 md:grid-cols-3 lg:mg-20 lg:gap-20">
+          <ul className="lg:mt-10 grid gap-10 md:grid-cols-3 lg:mg-20 lg:gap-20">
             {FEATURES.map((feature) => (
               <FeatureItem
                 key={feature.title}

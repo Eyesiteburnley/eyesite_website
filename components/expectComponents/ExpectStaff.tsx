@@ -7,19 +7,19 @@ const ExpectStaff = () => {
   return (
     <div className="flex items-center justify-center flex-col ">
       <Image
-        src={"/staff-img.png"}
+        src={"/staff-img Large.jpeg"}
         alt="Staff"
         width={1000}
         height={800}
         className="2xl:rounded-5xl"
       />
-      <div className="max-container padding-container relative w-full flex pt-10">
-        <div className="z-20 flex w-full flex-col">
-          <div className="relative">
+      <div className="max-container padding-container relative w-full p-8 flex pt-10">
+        <div className=" flex w-full flex-col">
+          <div className="relative p-6 pb-0 lg:p-0">
             <FontAwesomeIcon
               icon={faUser}
               style={{ width: "50px", height: "50px" }}
-              className="absolute left-[-50] top-[-28px] w-10 lg:w-[50px]"
+              className="absolute left-[-50] top-[-20px] lg:top-[-28px] w-10 lg:w-[50px]"
             />
             <h2 className="bold-40 lg:bold-64">Meet Our Staff</h2>
           </div>

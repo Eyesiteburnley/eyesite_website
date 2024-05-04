@@ -15,7 +15,6 @@ export default function Home() {
       <Services />
       <OCTSummary />
       <Values />
-      <Contact />
       <News />
     </>
   );

@@ -5,7 +5,7 @@ import Link from "next/link";
 const News = () => {
   return (
     <section>
-      <div className="flex-col flexCenter overflow-hidden bg-feature-bg bg-center bg-no-repeat py-24">
+      <div className="flex-col flexCenter overflow-hidden bg-feature-bg bg-center bg-no-repeat lg:py-24 pb-5">
         <div className="max-container padding-container relative w-full flex">
           <div className=" flex w-full flex-col">
             <div className="relative">
@@ -22,7 +22,7 @@ const News = () => {
                   "https://www.burnleyexpress.net/business/burnley-based-eyesite-opticians-holds-open-day-to-celebrate-new-ownership-and-adopts-cic-healthier-heroes-4497161"
                 }>
                 <Image
-                  src="/News.png"
+                  src="/News large.jpeg"
                   alt="News Image"
                   width={600}
                   height={600}
