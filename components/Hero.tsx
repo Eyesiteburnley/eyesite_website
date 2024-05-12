@@ -41,7 +41,7 @@ const Hero = () => {
         </p>
       </div>
       <div className="relative flex flex-1 items-center lg:items-start  ">
-        <div className="relative hidden lg:flex">
+        <div className="relative hidden rounded:2xl lg:flex">
           <iframe
             width="800"
             height="600"
@@ -50,7 +50,7 @@ const Hero = () => {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen></iframe>
         </div>
-        <div className="relative lg:hidden">
+        <div className="relative rounded:2xl lg:hidden">
           <iframe
             width="350"
             height="200"
