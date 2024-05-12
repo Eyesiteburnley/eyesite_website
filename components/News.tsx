@@ -30,7 +30,7 @@ const News = () => {
                 />
               </a>
               <a target="_blank" href="https://www.burnleyexpress.net/business/burnley-based-eyesite-opticians-holds-open-day-to-celebrate-new-ownership-and-adopts-cic-healthier-heroes-4497161">
-                  <button className="bg-blue-500 hover:bg-blue-80 text-white font-bold py-2 px-4 text-xl rounded-full mt-4">
+                  <button className="bg-blue-80  text-white py-2 px-4 text-xl rounded-full mt-4">
                     Click Here
                   </button>
               </a>

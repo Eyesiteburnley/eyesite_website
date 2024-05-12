@@ -46,7 +46,8 @@ const ContactInformation = () => {
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2356.123677539187!2d-2.233001623087173!3d53.80508294030057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b912c9276273b%3A0xe30c0c76654cc88!2sEyesite%20Opticians%20Burnley!5e0!3m2!1sen!2suk!4v1711570060695!5m2!1sen!2suk"
               width="100%"
               height="450"
-              loading="lazy"></iframe>
+              loading="lazy">
+            </iframe>
           </div>
           <div className=" h-[450px] lg:w-1/3 bg-blue-80 flex flex-col justify-center items-center">
             <div className="flex flex-col">
