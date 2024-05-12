@@ -19,11 +19,10 @@ const Hero = () => {
         <h2 className="regular-18 text-gray-30">Established 1992</h2>
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
           <p>
-            Welcome to Eyesite Opticians. We are a reputable well established
-            business that has been servicing the community of Burnley for 30
-            years.
-          </p>
-          <br></br>
+              Welcome to Eyesite Opticians. We are a reputable well established
+              business that has been servicing the community of Burnley for 30
+              years.
+          </p><br></br>
           <p>
             We provide the best eye care for our loyal patients, just have a
             look at our reviews! (Include link to Google reviews).
@@ -35,8 +34,8 @@ const Hero = () => {
           </p>
           <br></br>{" "}
           <p>
-            We have a wide variety of over 100's of frames in stock and on
-            offer, with the vision to suit everyone's needs and styles, with
+            We have a wide variety of over 100&apos;s of frames in stock and on
+            offer, with the vision to suit everyone&apos;s needs and styles, with
             brands such as Ted Baker, Ambri, Ferruci, Joia.
           </p>
         </p>
