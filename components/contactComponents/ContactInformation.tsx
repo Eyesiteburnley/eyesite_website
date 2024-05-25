@@ -25,6 +25,8 @@ const ContactInformation = () => {
               <p className="text-white regular-16 lg:regular-18">
                 Monday: 9:00 AM - 5:30 PM
                 <br />
+                Tuesday: Closed
+                <br />
                 Wednesday: 9:00 AM - 5:30 PM
                 <br />
                 Thursday: 9:00 AM - 5:30 PM
@@ -34,8 +36,6 @@ const ContactInformation = () => {
                 Saturday: 9:00 AM - 5:30 PM
                 <br />
                 Sunday: Closed
-                <br />
-                Tuesday: Closed
               </p>
             </div>
           </div>
