@@ -23,21 +23,21 @@ export const NAV_LINKS = [
       icon: '/user.svg',
       variant: 'green',
       description:
-        'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+        "We ensure personalized care, attentive listening, and tailored solutions to meet each patient's unique vision needs, guaranteeing a comfortable and satisfying experience.",
     },
     {
       title: 'Providing a comprehensive eye examination using the latest technology',
       icon: '/tech.svg',
       variant: 'green',
       description:
-        "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+        "ensuring accurate diagnoses, personalized care, and optimal vision solutions, enhancing your eye health with precision and advanced diagnostic tools.",
     },
     {
       title: 'Provide Tailored advice and excellent aftercare',
       icon: '/service.svg',
       variant: 'green',
       description:
-        'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+        'We offer personalized recommendations and continuous support, ensuring your vision remains clear and comfortable long after your visit.',
     },
   ];
   

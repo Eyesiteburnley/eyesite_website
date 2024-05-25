@@ -24,10 +24,10 @@ const OCTSummary = () => {
           alt="OCT Scan"
           width={600}
           height={500}
-          className=' object-cover object-center 2xl:rounded-5xl'
+          className=' object-cover object-center 2xl:rounded-5xl rounded-2xl'
         />
         <div className="absolute flex bg-white py-8 pl-5 pr-7 gap-3 rounded-3xl shadow-md md:left-[5%] lg:top-10">
-          <div className="flexBetween flex-col ">
+          <div className="flexBetween flex-col">
             <div className="flex w-full flex-col">
               <div className="flexBetween w-full">
                 <p className='regular-16 text-gray-20'>The scan can help us detect</p>
@@ -42,7 +42,6 @@ const OCTSummary = () => {
               </ul>
             </div>
           </div>
-
         </div>
       </div>
     </section>
