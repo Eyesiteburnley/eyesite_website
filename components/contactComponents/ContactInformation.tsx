@@ -9,7 +9,7 @@ const ContactInformation = () => {
   return (
     <section>
       <div className="flex flex-col w-full">
-        <div className="flex items-center justify-center flex-col m-20">
+        <div className="flex items-center justify-center flex-col lg:m-20 m-5">
           <h1 className="bold-52 lg:bold-88 h-50">Contact</h1>
           <h3 className="mb-5">We Have free Parking at our Location!</h3>
           <div className="flex flex-col lg:flex-row gap-5 bg-blue-80 p-10 rounded-5xl">
@@ -52,7 +52,7 @@ const ContactInformation = () => {
           <div className=" h-[450px] lg:w-1/3 bg-blue-80 flex flex-col justify-center items-center">
             <div className="flex flex-col">
               <h2 className="bold-32 lg:bold-68 text-white">Contact Us</h2>
-              <div className="text-white flex items-center">
+              {/* <div className="text-white flex items-center">
                 <FontAwesomeIcon
                   icon={faWhatsapp}
                   style={{
@@ -62,7 +62,7 @@ const ContactInformation = () => {
                   }}
                 />
                 <p>07777 777 777</p>
-              </div>
+              </div> */}
               <div className="text-white flex items-center">
                 <FontAwesomeIcon
                   icon={faEnvelope}

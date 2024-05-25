@@ -25,8 +25,9 @@ const ExpectStaff = () => {
           </div>
           <ul className="mt-10 grid gap-10 md:grid-cols-3 lg:mg-20 lg:gap-20 pb-20">
             <li><span className="bold-20 lg:bold-32">Christine</span> has been Practice Manager since the doors first opened. She has been in the profession for 33 years. </li>
-            <li><span className="bold-20 lg:bold-32">Amir</span> is our Optometrist who has been qualified for 16 years. He has been in the profession for 20 years.</li>
+            
             <li><span className="bold-20 lg:bold-32">Janet</span> is our Qualified Dispensing Optician for 23 years. She has been in the profession for 40 years.</li>
+            <li><span className="bold-20 lg:bold-32">Amir</span> is our Optometrist who has been qualified for 16 years. He has been in the profession for 20 years.</li>
           </ul>
         </div>
       </div>
