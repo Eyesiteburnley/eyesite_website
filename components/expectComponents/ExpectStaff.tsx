@@ -9,9 +9,9 @@ const ExpectStaff = () => {
       <Image
         src={"/staff-img Large.jpeg"}
         alt="Staff"
-        width={1000}
+        width={800}
         height={800}
-        className="2xl:rounded-5xl"
+        className="rounded-5xl"
       />
       <div className="max-container padding-container relative w-full p-8 flex pt-10">
         <div className=" flex w-full flex-col">

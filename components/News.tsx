@@ -22,7 +22,7 @@ const News = () => {
                   "https://www.burnleyexpress.net/business/burnley-based-eyesite-opticians-holds-open-day-to-celebrate-new-ownership-and-adopts-cic-healthier-heroes-4497161"
                 }>
                 <Image
-                  src="/News large.jpeg"
+                  src="/NewsLarge.jpeg"
                   alt="News Image"
                   width={600}
                   height={600}

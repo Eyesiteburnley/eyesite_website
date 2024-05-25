@@ -30,7 +30,7 @@ export const NAV_LINKS = [
       icon: '/tech.svg',
       variant: 'green',
       description:
-        "ensuring accurate diagnoses, personalized care, and optimal vision solutions, enhancing your eye health with precision and advanced diagnostic tools.",
+        "Ensuring accurate diagnoses, personalised care, and optimal vision solutions, enhancing your eye health with precision and advanced diagnostic tools.",
     },
     {
       title: 'Provide Tailored advice and excellent aftercare',
@@ -78,7 +78,7 @@ export const NAV_LINKS = [
     {
       id: 1,
       src: "/HH2 Large.jpeg",
-      title: "Black Coffee",
+      title: "",
       desc: "Black coffee is a beverage made from roasted coffee beans. The beans are ground and soaked in water, which releases their flavor, color, caffeine content, and nutrients. ",
     },
     {
