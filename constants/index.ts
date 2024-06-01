@@ -27,17 +27,17 @@ export const NAV_LINKS = [
     },
     {
       title: 'Providing a comprehensive eye examination using the latest technology',
-      icon: '/tech.svg',
+      icon: '/user-doctor-solid.svg',
       variant: 'green',
       description:
         "Ensuring accurate diagnoses, personalised care, and optimal vision solutions, enhancing your eye health with precision and advanced diagnostic tools.",
     },
     {
       title: 'Provide Tailored advice and excellent aftercare',
-      icon: '/service.svg',
+      icon: '/check-solid.svg',
       variant: 'green',
       description:
-        'We offer personalized recommendations and continuous support, ensuring your vision remains clear and comfortable long after your visit.',
+        'We offer personalised recommendations to suit your eye needs and continuous support, ensuring your vision remains clear and comfortable long after your visit.',
     },
   ];
   

@@ -3,7 +3,7 @@ import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGlasses,
-  faUser,
+  faUserDoctor,
   faMicrochip,
   faBellConcierge,
 } from "@fortawesome/free-solid-svg-icons";
