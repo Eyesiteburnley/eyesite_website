@@ -20,7 +20,7 @@ interface serviceProps{
 
 const Service=({backgroundImage,title,subtitle,readMore,serviceLink, font_icon}:serviceProps)=>{
   return(
-    <div className={`h-full w-full lg:min-w-[1100px] ${backgroundImage} bg-cover bg-no-repeat lg:rounded-5xl lg:ml-10 2xl:rounded-5xl 2xl:ml-10 ml-2 rounded-5xl min-w-[300px]`}>
+    <div className={`h-full w-full lg:min-w-[1100px] ${backgroundImage} bg-cover bg-center bg-no-repeat lg:rounded-5xl lg:ml-10 2xl:rounded-5xl 2xl:ml-10 ml-2 rounded-5xl min-w-[300px]`}>
       <div className="flex h-full flex-col items-start justify-between p-6 lg:py-10 ">
         <div className="flexCenter gap-4">
           <div className="rounded-full bg-blue-80 p-4">
@@ -41,7 +41,7 @@ const Services = () => {
     <section className=" 2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20 ">
       <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
       <Service 
-        backgroundImage="bg-bg-img-3"
+        backgroundImage="bg-bg-img-8"
         title="Eye Test"
         subtitle="OCT Scan"
         readMore="Read More "
@@ -49,7 +49,23 @@ const Services = () => {
         font_icon={faMicroscope}
       />
       <Service 
-        backgroundImage="bg-bg-img-5"
+        backgroundImage="bg-bg-img-3"
+        title="Fully Comprehensive Eye Examination"
+        subtitle="(MECs/CUES)"
+        readMore="Read More "
+        serviceLink="./services"
+        font_icon={faKitMedical}
+      />
+      <Service 
+        backgroundImage="bg-bg-img-6"
+        title="Contact Lenses"
+        subtitle="(MECs/CUES)"
+        readMore="Read More "
+        serviceLink="./services"
+        font_icon={faKitMedical}
+      />
+      <Service 
+        backgroundImage="bg-bg-img-7"
         title="Minor Eye Condidtions"
         subtitle="(MECs/CUES)"
         readMore="Read More "

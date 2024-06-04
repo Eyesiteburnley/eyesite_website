@@ -1,4 +1,6 @@
+import { faGlasses } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { IconProp } from "@fortawesome/fontawesome-svg-core";
 
 // NAVIGATION
 export const NAV_LINKS = [
@@ -40,6 +42,34 @@ export const NAV_LINKS = [
         'We offer personalised recommendations to suit your eye needs and continuous support, ensuring your vision remains clear and comfortable long after your visit.',
     },
   ];
+
+  export const OFFERS = [
+    {
+      service:'Designer Frames',
+      offerDetails:'Buy one get one free on selected frames.',
+    },
+    {
+      service:'Contact Lenses',
+      offerDetails:'Free contact lens trial'
+    },
+    {
+      service:'OCT Scan',
+      offerDetails:'OCT Scans at £10 for a limited period'
+    },
+    {
+      service:'Contact Lenses',
+      offerDetails:'Buy 2 months worth of contact lenses and get one month free - includes single vision, toric, multifocal, monthly and daily lenses.'
+    },
+    {
+      service:'Designer Frames',
+      offerDetails:'Ted Baker frames - 2 for £195 including single vision lenses'
+    },
+    {
+      service:'Eye Exam',
+      offerDetails:'Free Eye exams for a limited period'
+    }
+
+  ]
   
   // FOOTER SECTION
   export const FOOTER_LINKS = [

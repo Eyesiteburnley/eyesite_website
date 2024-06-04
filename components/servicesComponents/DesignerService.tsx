@@ -4,6 +4,32 @@ import Image from "next/image";
 const DesignerService = () => {
   return (
     <section className="flex w-full flex-col">
+      <div className="max-container padding-container flex flex-col-reverse gap-20  pb-10 md:gap-28 lg:py-20 xl:flex-row w-full">
+        <div className="relative flex flex-1 items-center justify-center">
+          <Image
+            src="/oct_scan medium.jpeg"
+            alt="eyewear image"
+            width={600}
+            height={600}
+            className="2xl:rounded-5xl"></Image>
+        </div>
+        <div className="relative flex flex-1 flex-col xl:w-1/2 sm:text-center items-center justify-center">
+          <h1 className="bold-52 lg:bold-88">OCT eye scans</h1>
+          <p className="regular-16 text-gray-30 xl:max-w-[520px]">
+            At our optician practice, we are committed to providing exceptional
+            eye care services tailored to your needs. We offer advanced Optical
+            Coherence Tomography (OCT) scans, utilizing cutting-edge technology
+            to capture detailed images of the retina. This allows for early
+            detection and management of various eye conditions such as glaucoma,
+            age-related macular degeneration, and diabetic retinopathy. Our OCT
+            scans ensure precise and thorough evaluations, helping us to
+            safeguard your vision and maintain optimal eye health. Trust us to
+            deliver comprehensive care with the latest diagnostic tools for your
+            peace of mind.
+          </p>
+        </div>
+      </div>
+
       <div className="max-container padding-container flex flex-col gap-20 xl:flex-row  w-full">
         <div className="relative flex flex-1 flex-col xl:w-1/2 sm:text-center items-center justify-center">
           <h1 className="bold-52 lg:bold-88">Designer eyewear</h1>
@@ -33,34 +59,41 @@ const DesignerService = () => {
       <div className="max-container padding-container flex flex-col-reverse gap-20  pb-10 md:gap-28 lg:py-20 xl:flex-row w-full">
         <div className="relative flex flex-1 items-center justify-center">
           <Image
-            src="/machine Large.jpeg"
+            src="/irritated_eye.jpg"
             alt="eyewear image"
             width={600}
             height={600}
             className="2xl:rounded-5xl"></Image>
         </div>
-        <div className="relative flex flex-1 flex-col xl:w-1/2 sm:text-center items-center justify-center">
-          <h1 className="bold-52 lg:bold-88">OCT eye scans</h1>
+        <div className="relative flex flex-1 flex-col xl:w-1/2 items-center justify-center ">
+          <h1 className="bold-52 lg:bold-88 text-center">MECs & CUEs</h1>
           <p className="regular-16 text-gray-30 xl:max-w-[520px]">
-            At our optician practice, we are committed to providing exceptional
-            eye care services tailored to your needs. We offer advanced Optical
-            Coherence Tomography (OCT) scans, utilizing cutting-edge technology
-            to capture detailed images of the retina. This allows for early
-            detection and management of various eye conditions such as glaucoma,
-            age-related macular degeneration, and diabetic retinopathy. Our OCT
-            scans ensure precise and thorough evaluations, helping us to
-            safeguard your vision and maintain optimal eye health. Trust us to
-            deliver comprehensive care with the latest diagnostic tools for your
-            peace of mind.
+            The Minor Eye Conditions Service (MECS) provides assessment and
+            treatment for people with recently occurring minor eye problems. It
+            is an NHS service provided by accredited optometrists (also commonly
+            called opticians).
+            <br />
+            If you are experiencing:
+            <ul className="list-disc text-start align-middle">
+              <li>Red eye or eyelids</li>
+              <li>Dry, gritty, or uncomfortable eyes</li>
+              <li>Eye irritation and inflammation</li>
+              <li>A lot of recent discharge from the eye or watery eye</li>
+              <li>Recently occurring flashes or floaters</li>
+              <li>Painful eye</li>
+              <li>Ingrowing lashes</li>
+              <li>Recent and sudden loss of vision</li>
+              <li>Foreign body in the eye</li>
+            </ul>
+            …you can arrange an appointment with an optometrist through the
+            Minor Eye Conditions service.
           </p>
         </div>
       </div>
 
       <div className="max-container padding-container flex flex-col gap-20 xl:flex-row  w-full">
         <div className="relative flex flex-1 flex-col xl:w-1/2 sm:text-center items-center justify-center">
-          <h1 className="bold-52 lg:bold-88">
-            Full Comprehensive Eye Examination
-          </h1>
+          <h1 className="bold-52 lg:bold-88">Comprehensive Eye Examination</h1>
           <p className="regular-16 text-gray-30 xl:max-w-[520px]">
             Check the anterior surface of the eye, including the lids, lashes,
             cornea, conjunctiva, and the anterior chamber. Then, work our way to
@@ -73,7 +106,7 @@ const DesignerService = () => {
         </div>
         <div className="relative flex flex-1 items-center justify-center">
           <Image
-            src="/d-eyewear Large.jpeg"
+            src="/eye_exam Large.jpeg"
             alt="eyewear image"
             width={600}
             height={600}
@@ -84,7 +117,7 @@ const DesignerService = () => {
       <div className="max-container padding-container flex flex-col-reverse gap-20  pb-10 md:gap-28 lg:py-20 xl:flex-row w-full">
         <div className="relative flex flex-1 items-center justify-center">
           <Image
-            src="/machine Large.jpeg"
+            src="/contactLens2.jpeg"
             alt="eyewear image"
             width={600}
             height={600}
