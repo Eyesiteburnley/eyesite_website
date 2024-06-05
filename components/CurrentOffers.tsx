@@ -11,8 +11,8 @@ interface offerProps {
 
 const OfferBox = ({ service, offerDetails}: offerProps) => {
   return (
-    <div className="flex bg-white items-center p-10 rounded-5xl border-2 border-black m-2">
-      <div className="flex flex-col justify-between">
+    <div className="flex bg-white items-center p-10 rounded-5xl border-2 border-black m-2 justify-between">
+      <div className="flex flex-col justify-between w-2/3">
         <h3 className="bold-32 lg:bold-32">{service}</h3>
         <p className="regular-16">{offerDetails}</p>
       </div>
