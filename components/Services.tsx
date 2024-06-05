@@ -51,7 +51,7 @@ const Services = () => {
       <Service 
         backgroundImage="bg-bg-img-3"
         title="Fully Comprehensive Eye Examination"
-        subtitle="(MECs/CUES)"
+        subtitle=""
         readMore="Read More "
         serviceLink="./services"
         font_icon={faKitMedical}
@@ -59,7 +59,7 @@ const Services = () => {
       <Service 
         backgroundImage="bg-bg-img-6"
         title="Contact Lenses"
-        subtitle="(MECs/CUES)"
+        subtitle=""
         readMore="Read More "
         serviceLink="./services"
         font_icon={faKitMedical}

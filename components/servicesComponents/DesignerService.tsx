@@ -7,7 +7,7 @@ const DesignerService = () => {
       <div className="max-container padding-container flex flex-col-reverse gap-20  pb-10 md:gap-28 lg:py-20 xl:flex-row w-full">
         <div className="relative flex flex-1 items-center justify-center">
           <Image
-            src="/oct_scan medium.jpeg"
+            src="/oct_scanMedium.jpeg"
             alt="eyewear image"
             width={600}
             height={600}
@@ -117,7 +117,7 @@ const DesignerService = () => {
       <div className="max-container padding-container flex flex-col-reverse gap-20  pb-10 md:gap-28 lg:py-20 xl:flex-row w-full">
         <div className="relative flex flex-1 items-center justify-center">
           <Image
-            src="/contactLens2.jpeg"
+            src="/contactlens2.jpeg"
             alt="eyewear image"
             width={600}
             height={600}
