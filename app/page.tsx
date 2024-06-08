@@ -18,7 +18,7 @@ export default function Home() {
       <Hero />
       <BookingSection />
       <Services />
-      {/* <CurrentOffers /> */}
+      <CurrentOffers />
       <OCTSummary />
       <Values />
       <News />
