@@ -1,8 +1,8 @@
 import React from "react";
 import { OFFERS } from "@/constants";
 import { faGlasses,faKitMedical, faMicroscope } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon, FontAwesomeIconProps } from '@fortawesome/react-fontawesome';
-import { IconProp } from "@fortawesome/fontawesome-svg-core";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 interface offerProps {
   service: string;
@@ -45,22 +45,9 @@ const CurrentOffers = () => {
                         <OfferBox
                             key={link.service}
                             service={link.service}
-                            offerDetails={link.offerDetails}   
-                            offerIcon={link.offerIcon}                 />
+                            offerDetails={link.offerDetails}                  />
                     ))}
                 </ul>
-                {/* <OfferBox 
-                service={OFFERS[0].service}
-                offerDetails={OFFERS[0].offerDetails}
-                />
-                <OfferBox 
-                service={OFFERS[0].service}
-                offerDetails={OFFERS[0].offerDetails}
-                />
-                <OfferBox 
-                service={OFFERS[0].service}
-                offerDetails={OFFERS[0].offerDetails}
-                /> */}
             </div>
         </div>
         <div className="relative flex flex-1 flex-col hidden lg:block xl:w-1/2">
