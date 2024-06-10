@@ -7,10 +7,9 @@ import { IconProp } from "@fortawesome/fontawesome-svg-core";
 interface offerProps {
   service: string;
   offerDetails: string;
-  offerIcon:FontAwesomeIconProps;
 }
 
-const OfferBox = ({ service, offerDetails, offerIcon}: offerProps) => {
+const OfferBox = ({ service, offerDetails}: offerProps) => {
   return (
     <div className="flex bg-white items-center p-10 rounded-5xl border-2 border-black m-2 justify-between">
       <div className="flex flex-col justify-between w-2/3">
@@ -18,7 +17,6 @@ const OfferBox = ({ service, offerDetails, offerIcon}: offerProps) => {
         <p className="regular-16">{offerDetails}</p>
       </div>
       <div className="flex flex-col items-end w-1/3">
-        <FontAwesomeIcon icon= {offerIcon} style={{width:'30px', height:'30px'}} />
         <p className="self-end regular-16 text-gray-30">Expires 06/24</p>
       </div>
     </div>

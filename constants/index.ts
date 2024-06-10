@@ -47,12 +47,12 @@ export const NAV_LINKS = [
     {
       service:'Designer Frames',
       offerDetails:'Buy one get one free on selected frames.',
-      offerIcon:faGlasses
+
     },
     {
       service:'Contact Lenses',
       offerDetails:'Free contact lens trial',
-      offerIcon:faGlasses
+
     },
     {
       service:'OCT Scan',
@@ -62,17 +62,17 @@ export const NAV_LINKS = [
     {
       service:'Contact Lenses',
       offerDetails:'Buy 2 months worth of contact lenses and get one month free - includes single vision, toric, multifocal, monthly and daily lenses.',
-      offerIcon:faGlasses
+
     },
     {
       service:'Designer Frames',
       offerDetails:'Ted Baker frames - 2 for £195 including single vision lenses',
-      offerIcon:faGlasses
+
     },
     {
       service:'Eye Exam',
       offerDetails:'Free Eye exams for a limited period',
-      offerIcon:faMicroscope
+
     }
 
   ]
