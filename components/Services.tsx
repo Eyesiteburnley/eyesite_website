@@ -2,10 +2,11 @@ import React from 'react'
 
 import { IconProp, library } from '@fortawesome/fontawesome-svg-core';
 
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight, faUserDoctor } from "@fortawesome/free-solid-svg-icons";
 import { faGlasses,faKitMedical, faMicroscope } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from 'next/link';
+import { faCircle } from '@fortawesome/free-regular-svg-icons';
 
 
 
@@ -54,7 +55,7 @@ const Services = () => {
         subtitle=""
         readMore="Read More "
         serviceLink="./services"
-        font_icon={faKitMedical}
+        font_icon={faUserDoctor}
       />
       <Service 
         backgroundImage="bg-bg-img-6"
@@ -62,7 +63,7 @@ const Services = () => {
         subtitle=""
         readMore="Read More "
         serviceLink="./services"
-        font_icon={faKitMedical}
+        font_icon={faCircle}
       />
       <Service 
         backgroundImage="bg-bg-img-7"

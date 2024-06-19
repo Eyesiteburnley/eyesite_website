@@ -47,26 +47,32 @@ export const NAV_LINKS = [
     {
       service:'Designer Frames',
       offerDetails:'Buy one get one free on selected frames.',
+      expiryDate:'Ongoing Offers'
     },
     {
       service:'Contact Lenses',
       offerDetails:'Free contact lens trial',
+      expiryDate:'expires 06/24'
     },
     {
       service:'OCT Scan',
       offerDetails:'OCT Scans at £10 for a limited period',
+      expiryDate:'Ongoing Offers'
     },
     {
       service:'Contact Lenses',
       offerDetails:'Buy 2 months worth of contact lenses and get one month free - includes single vision, toric, multifocal, monthly and daily lenses.',
+      expiryDate:'14/08/24'
     },
     {
       service:'Designer Frames',
       offerDetails:'Ted Baker frames - 2 for £195 including single vision lenses',
+      expiryDate:'Ongoing Offers'
     },
     {
       service:'Eye Exam',
       offerDetails:'Free Eye exams for a limited period',
+      expiryDate:'Ongoing Offers'
     }
 
   ]
