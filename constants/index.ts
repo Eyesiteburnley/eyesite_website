@@ -52,7 +52,7 @@ export const NAV_LINKS = [
     {
       service:'Contact Lenses',
       offerDetails:'Free contact lens trial',
-      expiryDate:'expires 06/24'
+      expiryDate:'Ongoing Offers'
     },
     {
       service:'OCT Scan',
