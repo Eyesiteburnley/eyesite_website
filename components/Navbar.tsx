@@ -17,7 +17,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-blue-80 flexBetween max-w-full padding-container relative z-30 py-5">
+    <nav className="flex justify-between items-center w-full bg-blue-80 px-4 lg:px-8 py-5 relative z-30">
       <Link className="ml-4" href="./">
         <Image
           className=""
@@ -37,7 +37,7 @@ const Navbar = () => {
           </Link>
         ))}
       </ul>
-      <div className="lg:flexCenter hidden mr-20">
+      <div className=" lg:flex hidden">
         <BookingButton
           type="button"
           title="Book Appointment"
@@ -46,7 +46,7 @@ const Navbar = () => {
         />
       </div>
 
-      <div onClick={handleNav} className="cursor-pointer">
+      <div onClick={handleNav} className="cursor-pointer lg:hidden">
         <Image
           src="menu.svg"
           alt="menu"

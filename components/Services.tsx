@@ -23,7 +23,7 @@ const Service=({backgroundImage,title,subtitle,readMore,serviceLink, font_icon}:
   return(
     <div className={`h-full w-full lg:min-w-[1100px] ${backgroundImage} bg-cover bg-center bg-no-repeat lg:rounded-5xl lg:ml-10 2xl:rounded-5xl 2xl:ml-10 ml-2 rounded-5xl min-w-[300px]`}>
       <div className="flex h-full flex-col items-start justify-between p-6 lg:py-10 ">
-        <div className="flexCenter gap-4">
+        <div className="flexCenter gap-4 bg-black p-3 rounded-lg bg-opacity-60">
           <div className="rounded-full bg-blue-80 p-4">
             <FontAwesomeIcon icon={font_icon} style={{width:'28px', height:'28px'}} className='text-white'/>
           </div>

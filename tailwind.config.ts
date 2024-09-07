@@ -40,7 +40,7 @@ module.exports = {
         'bg-img-5':"url('/MECs_CUEs.jpg')",
         'bg-img-6':"url('/contactlens2.jpeg')",
         'bg-img-7':"url('/irritated_eye.jpg')",
-        'bg-img-8':"url('/oct_scan.jpg')",
+        'bg-img-8':"url('/oct_scans_new.jpeg')",
         pattern: "url('/pattern.png')",
         'pattern-2': "url('/pattern-bg.png')",
       },

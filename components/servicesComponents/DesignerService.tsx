@@ -7,11 +7,19 @@ const DesignerService = () => {
       <div className="max-container padding-container flex flex-col-reverse gap-20  pb-10 md:gap-28 lg:py-20 xl:flex-row w-full">
         <div className="relative flex flex-1 items-center justify-center">
           <Image
-            src="/oct_scanMedium.jpeg"
-            alt="eyewear image"
-            width={600}
+            src="/amir_disk.jpg"
+            alt="Disc scan"
+            width={300}
             height={600}
-            className="2xl:rounded-5xl"></Image>
+            className="2xl:rounded-l-5xl"
+          />
+          <Image
+            src="/amir_macula.png"
+            alt="Macula Scan"
+            width={300}
+            height={600}
+            className="2xl:rounded-r-5xl"
+          />
         </div>
         <div className="relative flex flex-1 flex-col xl:w-1/2 sm:text-center items-center justify-center">
           <h1 className="bold-52 lg:bold-88">OCT eye scans</h1>
