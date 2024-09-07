@@ -30,14 +30,14 @@ const OCTSummary = () => {
       </div>
       <div className="flexCenter relative max lg:w-3/4 lg:bg-blue-80 lg:p-20  rounded-5xl flex-col lg:flex-col p-0">
         <Image
-          src="/machine Large.jpeg"
+          src="/oct_scans_new.jpeg"
           alt="OCT Scan"
           width={600}
           height={500}
           className=" object-cover object-center 2xl:rounded-5xl rounded-2xl hidden lg:block"
         />
         <Image
-          src="/machine Large.jpeg"
+          src="/oct_scans_new.jpeg"
           alt="OCT Scan"
           width={300}
           height={500}

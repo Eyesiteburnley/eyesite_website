@@ -29,7 +29,7 @@ const ConstantBooking = () => {
 
   return (
     <div
-      className={`fixed bottom-4 z-10 opacity-100 right-4 transition-opacity duration-200`}>
+      className={`fixed top-24 z-10 opacity-100 left-4 transition-opacity duration-200`}>
       <BookingButton
         type={"button"}
         title={"Book An Appointment"}

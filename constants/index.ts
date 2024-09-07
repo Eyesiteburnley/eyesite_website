@@ -74,7 +74,7 @@ export const NAV_LINKS = [
       service:'Eye Exam',
       offerDetails:'Free Eye exams for a limited period',
       expiryDate:'Ongoing Offers'
-    }
+    },
 
   ]
 
