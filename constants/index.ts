@@ -1,6 +1,7 @@
 import { faGlasses, faMicroscope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
+import Description from "@/components/Description";
 
 // NAVIGATION
 export const NAV_LINKS = [
@@ -95,6 +96,24 @@ export const NAV_LINKS = [
       image:'/bogof_offer.jpeg',
     },
 
+  ]
+
+  export const STAFF_INFO = [
+    {
+      name:'Jane',
+      img:'/staff_jane.jpeg',
+      desc:'is our Qualified Dispensing Optician for 23 years. She has been in the profession for 40 years.'
+    },
+    {
+      name:'Amir',
+      img:'/staff_amir.jpeg',
+      desc:'is our Optometrist who has been qualified for 16 years. He has been in the profession for 20 years.'
+    },
+    {
+      name:'Elizabeth',
+      img:'/staff_elizabeth.jpeg',
+      desc:'has been in the Optical Industry for over 15 years. More recently she used to work for a major eye hospital.'
+    },
   ]
   
   // FOOTER SECTION
