@@ -7,7 +7,7 @@ import { faGlasses,faKitMedical, faMicroscope } from '@fortawesome/free-solid-sv
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from 'next/link';
 import { faCircle } from '@fortawesome/free-regular-svg-icons';
-
+import Image from 'next/image';
 
 
 interface serviceProps{
@@ -16,7 +16,7 @@ interface serviceProps{
   subtitle:string;
   readMore:string;
   serviceLink:string;
-  font_icon:IconProp;
+  font_icon:string;
 }
 
 const Service=({backgroundImage,title,subtitle,readMore,serviceLink, font_icon}:serviceProps)=>{
@@ -25,7 +25,13 @@ const Service=({backgroundImage,title,subtitle,readMore,serviceLink, font_icon}:
       <div className="flex h-full flex-col items-start justify-between p-6 lg:py-10 ">
         <div className="flexCenter gap-4 bg-black p-3 rounded-lg bg-opacity-60">
           <div className="rounded-full bg-blue-80 p-4">
-            <FontAwesomeIcon icon={font_icon} style={{width:'28px', height:'28px'}} className='text-white'/>
+            <Image
+              src={font_icon}
+              alt='icon'
+              width={100}
+              height={100}
+              className='rounded-full'
+            />
           </div>
           <div className="flex flex-col gap-1">
             <h4 className='bold-18 text-white'>{title}</h4>
@@ -47,7 +53,7 @@ const Services = () => {
         subtitle="OCT Scan"
         readMore="Read More "
         serviceLink="./services"
-        font_icon={faMicroscope}
+        font_icon='/eye_exam_icon.jpeg'
       />
       <Service 
         backgroundImage="bg-bg-img-3"
@@ -55,7 +61,7 @@ const Services = () => {
         subtitle=""
         readMore="Read More "
         serviceLink="./services"
-        font_icon={faUserDoctor}
+        font_icon='/eye_exam_icon.jpeg'
       />
       <Service 
         backgroundImage="bg-bg-img-6"
@@ -63,7 +69,7 @@ const Services = () => {
         subtitle=""
         readMore="Read More "
         serviceLink="./services"
-        font_icon={faCircle}
+        font_icon='/lens_icon.jpeg'
       />
       <Service 
         backgroundImage="bg-bg-img-7"
@@ -71,7 +77,7 @@ const Services = () => {
         subtitle="(MECs/CUES)"
         readMore="Read More "
         serviceLink="./services"
-        font_icon={faKitMedical}
+        font_icon='/mecs_icon.jpeg'
       />
       <Service 
         backgroundImage="bg-bg-img-4"
@@ -79,7 +85,7 @@ const Services = () => {
         subtitle="Take a Look at some of the brands we stock"
         readMore="Read More  "
         serviceLink="./services"
-        font_icon={faGlasses}
+        font_icon='/spectacles_icon.jpeg'
       />
       </div>
       <div className="flexEnd mt-10 px-6 lg:-mt-60 lg:mr-6">

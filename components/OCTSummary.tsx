@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const OCTSummary = () => {
   return (
-    <section className="flexCenter flex-col">
+    <section className="flexCenter flex-col pt-10">
       <div className="padding-container max-container w-full pb-10 lg:pb-24">
         <FontAwesomeIcon
           icon={faGlasses}

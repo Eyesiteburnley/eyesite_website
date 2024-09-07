@@ -76,6 +76,26 @@ export const NAV_LINKS = [
     }
 
   ]
+
+  export const OFFER_BOX = [
+    {
+      alt:'Eye exam Offer',
+      image:'/eye_exam_offer.jpeg',
+    },
+    {
+      alt:'Contact Lens Offer',
+      image:'/contact_lens_offer.jpeg',
+    },
+    {
+      alt:'Bogof Offer',
+      image:'/blue_light_offer.jpeg',
+    },
+    {
+      alt:'Bogof Offer',
+      image:'/bogof_offer.jpeg',
+    },
+
+  ]
   
   // FOOTER SECTION
   export const FOOTER_LINKS = [

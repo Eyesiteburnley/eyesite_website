@@ -1,7 +1,6 @@
 import React from "react";
-import { OFFERS } from "@/constants";
-import { faGlasses,faKitMedical, faMicroscope } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { OFFERS, OFFER_BOX } from "@/constants";
+import Image from "next/image";
 
 
 interface offerProps {
@@ -39,20 +38,24 @@ const CurrentOffers = () => {
           </div>
         </div>
       <div className="max-container padding-container flex flex-col gap-20 py-10 sm:pb-10 md:gap-28 lg:py-20 xl:flex-row bg-blue-80">
-      <div className="relative flex flex-col xl:w-1/2 overflow-y-scroll overflow-hidden h-[45vh]">
+      <div className="relative flex flex-col xl:w-1/2 overflow-y-scroll overflow-hidden h-[380px] bg-black bg-opacity-30 p-3 rounded-2xl">
             <div>
-                <ul>
-                    {OFFERS.map((link) =>(
-                        <OfferBox
-                            key={link.service}
-                            service={link.service}
-                            offerDetails={link.offerDetails}
-                            expiryDate={link.expiryDate}                  />
+                <ul className="flex flex-wrap gap-3 justify-center align-middle">
+                    {OFFER_BOX.map((link) =>(
+                        <li key={link.alt}>
+                          <Image 
+                            alt={link.alt}
+                            src ={link.image}
+                            width={300}
+                            height={300}
+                            className="rounded-5xl"
+                          />
+                        </li>
                     ))}
                 </ul>
             </div>
         </div>
-        <div className="relative flex flex-1 flex-col hidden lg:block xl:w-1/2">
+        <div className="relative flex flex-1 flex-col  lg:block xl:w-1/2">
           <h2 className="bold-52 lg:bold-88 text-white">
             Some of Our Current Offers
           </h2>
