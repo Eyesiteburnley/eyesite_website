@@ -26,7 +26,7 @@ const CurrentOffers = () => {
   console.log(OFFERS[0]);
   return (
     <section className="w-full bg-blue-80 flex flex-col lg:flex-row">
-      <div className="relative flex flex-1 flex-col pt-10 pl-5 pr-5 xl:w-1/2 lg:hidden">
+      <div className="relative flex flex-1 flex-col-reverse pt-10 pl-5 pr-5 xl:w-1/2 lg:hidden">
         <h2 className="bold-52 lg:bold-88 text-white">
           Some of Our Current Offers
         </h2>
@@ -36,7 +36,7 @@ const CurrentOffers = () => {
           </p>
         </div>
       </div>
-      <div className="max-container padding-container flex flex-col gap-20 py-10 sm:pb-10 md:gap-28 lg:py-20 xl:flex-row bg-blue-80">
+      <div className="max-container padding-container flex flex-col-reverse gap-20 py-10 sm:pb-10 md:gap-28 lg:py-20 xl:flex-row bg-blue-80">
         <div className="relative flex flex-col xl:w-1/2 h-[400px] bg-black bg-opacity-30 p-5 rounded-2xl">
           <div>
             <ul className="grid grid-cols-2 gap-3 ">
@@ -54,7 +54,7 @@ const CurrentOffers = () => {
             </ul>
           </div>
         </div>
-        <div className="relative flex flex-1 flex-col  lg:block xl:w-1/2">
+        <div className="relative flex-1 flex-col hidden  lg:block xl:w-1/2">
           <h2 className="bold-52 lg:bold-88 text-white">
             Some of Our Current Offers
           </h2>

@@ -7,7 +7,7 @@ import Description from "@/components/Description";
 export const NAV_LINKS = [
     { href: '/about', key: 'about', label: 'About' },
     { href: '/services', key: 'our_services', label: 'Our Services' },
-    { href: '/expect', key: 'what_to_expect', label: 'What to Expect' },
+    { href: '/expect', key: 'what_to_expect', label: 'Meet The Staff' },
     { href: '/contact', key: 'contact_us', label: 'Contact Us' },
   ];
   
