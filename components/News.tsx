@@ -15,7 +15,7 @@ const News = () => {
                 work with healthier heroes
               </h3>
             </div>
-            <div className="flex min-w-full justify-center items-center flex-col">
+            <div className="flex min-w-full justify-center items-center flex-col pt-10">
               <a
                 target="_blank"
                 href={

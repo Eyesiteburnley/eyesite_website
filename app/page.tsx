@@ -7,6 +7,7 @@ import News from "@/components/News";
 import BookingSection from "@/components/BookingSection";
 import Head from "next/head";
 import CurrentOffers from "@/components/CurrentOffers";
+import Reviews from "@/components/Reviews";
 // import the library
 
 export default function Home() {
@@ -21,7 +22,9 @@ export default function Home() {
       <CurrentOffers />
       <OCTSummary />
       <Values />
+      <Reviews />
       <News />
+
     </>
   );
 }
