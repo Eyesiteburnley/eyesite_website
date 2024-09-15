@@ -18,13 +18,23 @@ const OCTSummary = () => {
           <h2 className="bold-40 lg:bold-64 xl:max-w-[390px]">
             We provide OCT Scans
           </h2>
-          <p className="regular-16 text-gray-30 xl:max-w-[520px]">
+          <p className="regular-16 text-gray-50 xl:max-w-[520px]">
             An Optical Coherence Tomography (OCT) scan uses (non-invasive) light
             waves to produce a 3D scan of the layers of the retina. It allows
             the Optometrist to see the layers of the retina rather than just the
             surface. It helps the Optometrist to diagnose and manage eye
             conditions. It can be used as a baseline to monitor changes over
             time.
+            <br/><br/>
+            Does the OCT scan hurt? It is completely painless and nothing
+            will touch your eye. What is the difference between a Retinal Camera
+            and and OCT scan? - A Retinal Camera takes an image of the retina
+            but just shows the surface only. Imagine the retina being a lasagne.
+            The Retinal camera allows us to see the surface of the Lasagne. The
+            Retinal Camera would produce a 2D image of this - An OCT scan allows
+            you to see the layers of the retina rather than just it&apos;s surface.
+            So, imagine cutting the lasagne and being able to see the filling or
+            the layers of it. The OCT would produce a 3D image of this.
           </p>
         </div>
       </div>
