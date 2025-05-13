@@ -8,6 +8,7 @@ import BookingSection from "@/components/BookingSection";
 import Head from "next/head";
 import CurrentOffers from "@/components/CurrentOffers";
 import Reviews from "@/components/Reviews";
+import Announcement from "@/components/Announcement";
 // import the library
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
         <link rel="icon" href="/logo_blue.png" />
       </Head>
       <Hero />
+      <Announcement />
       <BookingSection />
       <Services />
       <CurrentOffers />

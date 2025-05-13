@@ -15,7 +15,7 @@ const StaffCard = ({ name, description, image }: staffCardProps) => {
     <div className="bg-black p-10 flex justify-center items-center bg-opacity-10 rounded-2xl">
       <div className="h-[500px] lg:w-[430px] md:w-[300px] flex flex-col justify-between align-middle items-center ">
         <div>
-          <p>
+          <p className="pb-3">
             <span className="bold-20 lg:bold-32">{name}</span> {description}
           </p>
         </div>
@@ -56,7 +56,7 @@ const ExpectStaff = () => {
             />
             <h2 className="bold-40 lg:bold-64">Meet Our Staff</h2>
           </div>
-          <ul className="mt-10 grid gap-10 md:grid-cols-2 lg:mg-20 lg:gap-20 lg:grid-cols-3 pb-20">
+          <ul className="mt-10 flex flex-wrap gap-5 pb-20 justify-center">
             {STAFF_INFO.map((link) => (
               <StaffCard
                 key={link.name}

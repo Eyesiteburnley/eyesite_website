@@ -110,11 +110,15 @@ export const STAFF_INFO = [
     img: "/staff_jane.jpeg",
     desc: "is our Qualified Dispensing Optician for 23 years. She has been in the profession for 40 years.",
   },
-
   {
     name: "Elizabeth",
     img: "/staff_elizabeth.jpeg",
     desc: "has been in the Optical Industry for over 15 years. More recently she used to work for a major eye hospital.",
+  },
+  {
+    name: "Leila",
+    img: "/staff_leila.jpeg",
+    desc: `is hoping to start studying Optometry at university and has been working at Eyesite Opticians to gain experience in the field and build up her knowledge before university`,
   },
 ];
 
