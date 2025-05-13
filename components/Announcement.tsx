@@ -8,6 +8,7 @@ const Announcement = () => {
       <div className="max-w-screen-xl mx-auto px-4 flex flex-col gap-20 py-10 sm:pb-10 md:gap-28 lg:py-20 lg:flex-row">
 
         {/* Left Text Block */}
+        {/* Left Text Block */}
         <div className="flex flex-1 flex-col lg:w-1/2">
           <h2 className="bold-52 lg:bold-88">We Have an Announcement!</h2>
           <div className="flex items-center flex-col">
